@@ -1,0 +1,5 @@
+scenario,n_intervals,n_campaigns,rho,T_OPT_dynamic,T_OPT_fixed,regret_Comb-UCB,util_Comb-UCB,stop_Comb-UCB,regret_SW-CombUCB,util_SW-CombUCB,stop_SW-CombUCB,regret_CD-CombUCB,util_CD-CombUCB,stop_CD-CombUCB,regret_Primal-Dual,util_Primal-Dual,stop_Primal-Dual
+pw_slight_binding,4,3,0.4683,6822.9,6152.9,1622.2,5200.7,8515.0,943.8,5879.1,9990.0,1805.2,5017.7,8158.0,1050.7,5772.2,10000.0
+ns_conflict_binding,4,4,0.1919,4659.6,3588.7,1576.5,3083.1,6132.0,1553.3,3106.2,6463.0,1688.4,2971.2,5732.0,1513.3,3146.3,9877.0
+ns_abrupt_binding,5,3,0.485,6267.2,5677.3,867.5,5399.6,9732.0,1350.9,4916.3,10000.0,1070.9,5196.3,8804.0,1281.1,4986.1,10000.0
+pw_frequent_binding,8,3,0.3756,5413.0,5289.3,748.2,4664.8,8853.0,784.4,4628.6,8912.0,1489.4,3923.6,7196.0,985.7,4427.2,10000.0

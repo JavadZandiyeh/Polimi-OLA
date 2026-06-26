@@ -1,0 +1,97 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{3}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Problem Formulation}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Single-campaign setting}{3}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Multi-campaign setting}{3}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Implementation Overview}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Repository structure}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Central design choices}{4}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Single-campaign optimization oracle}{5}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Multi-campaign optimization oracle}{5}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Datasets and Experimental Protocol}{5}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Synthetic scenarios}{5}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Evaluation protocol}{6}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Requirement 1: Single-Campaign Stochastic Bidding}{6}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Implemented algorithms}{6}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{UCB1 baseline.}{6}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Budgeted UCB.}{6}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Results summary}{6}{subsection.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Requirement 1 headline results on the binding-budget scenarios.}}{6}{table.caption.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Representative Requirement 1 regret curves. Under a binding budget, UCB1 eventually depletes the budget and its regret becomes linear; under a slack budget, both learners behave like valid no-regret stochastic bandits.}}{7}{figure.caption.5}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:req1-regret}{{1}{7}{Representative Requirement 1 regret curves. Under a binding budget, UCB1 eventually depletes the budget and its regret becomes linear; under a slack budget, both learners behave like valid no-regret stochastic bandits}{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Requirement 1 diagnostics: the budget-aware learner paces the spend and learns a bid distribution close to the constrained clairvoyant optimum.}}{7}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:req1-budget-diagnostics}{{2}{7}{Requirement 1 diagnostics: the budget-aware learner paces the spend and learns a bid distribution close to the constrained clairvoyant optimum}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Requirement 1 scaling experiment. The final regret of Budgeted UCB grows approximately like $\sqrt  {T}$, which is consistent with the expected sublinear regret behavior.}}{8}{figure.caption.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Interpretation}{8}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Requirement 2: Multi-Campaign Stochastic Bidding}{8}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Implemented algorithm}{8}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Results summary}{9}{subsection.6.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Requirement 2 results on the binding-budget scenarios.}}{9}{table.caption.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Requirement 2 diagnostics. The learner both respects the global budget and recovers the correct campaign-level allocation in the presence of conflicts.}}{9}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:req2-budget-diagnostics}{{4}{9}{Requirement 2 diagnostics. The learner both respects the global budget and recovers the correct campaign-level allocation in the presence of conflicts}{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Requirement 2 scaling experiment. The final regret again follows an approximately $\sqrt  {T}$ trend.}}{10}{figure.caption.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Interpretation}{10}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Requirement 3: Best-of-Both-Worlds Primal-Dual Learning}{10}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Implemented algorithm}{10}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Results summary}{11}{subsection.7.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Requirement 3 comparison against the best fixed feasible policy in hindsight. The dynamic optimum is reported to quantify the price of non-stationarity.}}{11}{table.caption.11}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Requirement 3 summary plot. The primal-dual algorithm is consistently strong across stochastic and non-stationary regimes, while the stochastic-only baseline becomes unreliable when the environment changes.}}{11}{figure.caption.12}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Representative Requirement 3 regret curves. The primal-dual learner remains competitive both in a highly non-stationary regime and in the reused stationary stochastic regime.}}{12}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:req3-regret}{{7}{12}{Representative Requirement 3 regret curves. The primal-dual learner remains competitive both in a highly non-stationary regime and in the reused stationary stochastic regime}{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Requirement 3 diagnostics on \texttt  {ns\_fast\_binding}. The dual variable acts as a real-time budget price, allowing the learner to react to changing competition while pacing the spend until the horizon.}}{12}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:req3-budget-dual}{{8}{12}{Requirement 3 diagnostics on \texttt {ns\_fast\_binding}. The dual variable acts as a real-time budget price, allowing the learner to react to changing competition while pacing the spend until the horizon}{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Requirement 3 scaling experiment on the fast non-stationary scenario. The final regret remains compatible with a sublinear trend.}}{13}{figure.caption.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Interpretation}{13}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Requirement 4: Piecewise-Stationary Learning}{13}{section.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Implemented algorithms}{13}{subsection.8.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Results summary}{14}{subsection.8.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Requirement 4 final regrets against the dynamic per-interval optimum.}}{14}{table.caption.16}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Requirement 4 summary comparison. The best method depends on the frequency of changes and on how expensive budget mistakes are.}}{14}{figure.caption.17}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Requirement 4 regret curves against the dynamic benchmark.}}{15}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:req4-regret}{{11}{15}{Requirement 4 regret curves against the dynamic benchmark}{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Requirement 4 diagnostics. The conflict scenario highlights the value of primal-dual pacing, while the window sweep shows that the best $W$ depends on the unknown interval length.}}{15}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:req4-budget-window}{{12}{15}{Requirement 4 diagnostics. The conflict scenario highlights the value of primal-dual pacing, while the window sweep shows that the best $W$ depends on the unknown interval length}{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Interpretation}{15}{subsection.8.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {9}Cross-Cutting Discussion of Unexpected Results}{15}{section.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {10}Conclusion}{16}{section.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {A}Complete Plot Gallery}{16}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Requirement 1: all plots}{16}{subsection.A.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}Requirement 2: unique plots}{16}{subsection.A.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.3}Requirement 3: all plots}{16}{subsection.A.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.4}Requirement 4: all plots}{16}{subsection.A.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Requirement 1 regret plots: uniform scenario.}}{17}{figure.caption.20}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Requirement 1 regret plots: low-competition scenario.}}{17}{figure.caption.21}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Requirement 1 regret plots: high-competition scenario.}}{17}{figure.caption.22}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Requirement 1 regret plots: beta-skewed scenario.}}{18}{figure.caption.23}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Requirement 1 regret plots: bimodal scenario.}}{18}{figure.caption.24}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Requirement 1 budget plots, part I.}}{18}{figure.caption.25}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Requirement 1 budget plots, part II.}}{19}{figure.caption.26}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Requirement 1 budget plot: \texttt  {bimodal\_binding}.}}{19}{figure.caption.27}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Requirement 1 diagnostic plots, part I.}}{19}{figure.caption.28}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Requirement 1 diagnostic plots, part II.}}{19}{figure.caption.29}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Requirement 1 diagnostic plot: \texttt  {bimodal\_binding}.}}{20}{figure.caption.30}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Requirement 1 scaling plot.}}{20}{figure.caption.31}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Requirement 2 budget plots, part I.}}{20}{figure.caption.32}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Requirement 2 budget plot: \texttt  {multi\_correlated\_binding}.}}{21}{figure.caption.33}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces Requirement 2 diagnostics, part I.}}{21}{figure.caption.34}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces Requirement 2 diagnostic plot: \texttt  {multi\_correlated\_binding}.}}{21}{figure.caption.35}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces Requirement 2 scaling plot.}}{21}{figure.caption.36}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces Requirement 3 regret plots, part I.}}{22}{figure.caption.37}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces Requirement 3 regret plots, part II.}}{22}{figure.caption.38}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces Requirement 3 regret plots on reused stochastic scenarios, part I.}}{22}{figure.caption.39}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces Requirement 3 regret plot on reused stochastic scenario: \texttt  {multi\_correlated\_binding}.}}{23}{figure.caption.40}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces Requirement 3 budget plots, part I.}}{23}{figure.caption.41}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {35}{\ignorespaces Requirement 3 budget plots, part II.}}{23}{figure.caption.42}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {36}{\ignorespaces Requirement 3 dual trajectories, part I.}}{24}{figure.caption.43}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {37}{\ignorespaces Requirement 3 dual trajectories, part II.}}{24}{figure.caption.44}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {38}{\ignorespaces Requirement 3 summary figures.}}{25}{figure.caption.45}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {39}{\ignorespaces Requirement 4 regret plots, part I.}}{25}{figure.caption.46}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {40}{\ignorespaces Requirement 4 regret plots, part II.}}{26}{figure.caption.47}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {41}{\ignorespaces Requirement 4 budget plots, part I.}}{26}{figure.caption.48}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {42}{\ignorespaces Requirement 4 budget plots, part II.}}{26}{figure.caption.49}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {43}{\ignorespaces Requirement 4 summary figures.}}{27}{figure.caption.50}\protected@file@percent }
+\gdef \@abspage@last{27}

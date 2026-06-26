@@ -1,0 +1,7 @@
+scenario,n_campaigns,correlation,rho,opt_per_round,T_OPT,cucb_total_util,cucb_total_cost,cucb_stop_round
+multi_conflict_binding,4,0.0,0.3527,0.5302,5302.0,4315.6,3525.6,9025.0
+multi_conflict_slack,4,0.0,2.0,0.5828,5827.6,4880.9,4144.7,10000.0
+multi_correlated_binding,3,0.6,0.3164,0.6713,6713.1,4567.6,3161.8,7025.0
+multi_correlated_slack,3,0.6,3.0,0.7637,7636.7,6814.9,5172.4,10000.0
+multi_independent_binding,3,0.0,0.5027,0.635,6350.1,5652.8,4759.4,10000.0
+multi_independent_slack,3,0.0,3.0,0.6831,6831.0,5695.3,4961.4,10000.0
