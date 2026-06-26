@@ -1,0 +1,12 @@
+scenario,world,kind,n_campaigns,rho,opt_per_round,T_OPT_fixed,T_OPT_dynamic,pd_total_util,pd_regret,cucb_regret,pd_total_cost,budget,pd_stop_round
+ns_abrupt_binding,nonstationary,abrupt,3,0.485,0.5677,5677.3,6283.0,4987.4,689.9,222.1,4489.0,4850.3,10000.0
+ns_abrupt_slack,nonstationary,abrupt,3,3.0,0.6107,6107.3,7993.6,5908.9,198.4,nan,9036.0,30000.0,10000.0
+ns_conflict_binding,nonstationary,abrupt,4,0.1919,0.3589,3588.7,4667.2,3149.8,438.9,522.4,1916.8,1918.6,9880.0
+ns_conflict_slack,nonstationary,abrupt,4,2.0,0.432,4320.2,8428.0,4146.4,173.8,nan,4065.6,20000.0,10000.0
+ns_fast_binding,nonstationary,fast,3,0.4158,0.5511,5510.7,5844.2,4999.1,511.5,1172.9,4090.8,4157.7,10000.0
+ns_fast_slack,nonstationary,fast,3,3.0,0.6296,6296.4,7071.2,6097.8,198.6,nan,9027.0,30000.0,10000.0
+ns_smooth_binding,nonstationary,smooth,3,0.3123,0.5328,5327.9,5375.9,3872.1,1455.8,1909.7,2647.9,3122.9,10000.0
+ns_smooth_slack,nonstationary,smooth,3,3.0,0.6121,6121.4,8257.1,5939.8,181.6,nan,9159.9,30000.0,10000.0
+multi_conflict_binding,stochastic,stationary,4,0.3527,0.5302,5302.0,5302.0,4896.8,405.2,1024.2,3516.9,3527.4,9965.0
+multi_correlated_binding,stochastic,stationary,3,0.3164,0.6713,6713.1,6713.1,5978.9,734.1,2153.6,3161.6,3164.4,9811.0
+multi_independent_binding,stochastic,stationary,3,0.5027,0.635,6350.1,6350.1,5919.3,430.8,699.7,5013.0,5026.9,9964.0
